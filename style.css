@@ -1,0 +1,158 @@
+*{ 
+    margin: 0;   
+    
+}
+
+#partesuperior{
+    
+    background-color: #303030;
+    height: 475px;   
+    padding-top: 1px;
+    
+}
+
+#textocima{
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    color: #ffffff;   
+    margin-top: 206px;
+    margin-left: 62px;                           
+}
+
+#subtitulosuperior{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: #ffffff;   
+}
+
+#menuinformacional{
+    background-color: #f9f9f9;
+    height: 229px;
+    top: -42px;
+}
+
+img{
+    margin: 90px;    
+    margin-left: 150px;
+}
+
+#titulocentral{
+    position: relative;
+    left: 250px;
+    top: 200px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500; 
+    margin-top: 100px;
+    width: 735px; 
+    cursor: pointer;
+}
+#titulocentral:hover{
+   color: #303030;
+   opacity: 90%;
+}
+
+#textocentral{
+position: relative;
+right: 490px;
+top: 90px;
+font-family: Inter;
+font-size: 24px;
+font-weight: 300;
+line-height: 30px;
+margin-top: 300px;
+width: 735px;
+opacity: 0;
+
+}
+
+#imgcentro{
+ position: relative;
+ margin-top: 100px;
+ right: 400px; 
+ 
+}
+
+#partecentral{
+  display: grid;
+ grid-auto-flow: column;
+ columns: auto;
+ width: 1440px;
+ 
+}
+
+#parteformulario{
+    background-color: #303030;
+    height: 638px;  
+
+}
+    
+#tituloformulario{
+    position:relative;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    top:100px;
+    right: 45px;
+        
+}
+
+input{
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  position: relative;  
+  width: 400px;
+  height: 50px;
+  background-color: #EAECE5 ;
+  margin: 15px;
+  border:0px;
+  border-radius: 5px;
+  top: 120px;
+  left: 620px;
+  margin: 50px;
+  font-family: "Raleway", sans-serif;
+  padding-left: 20px;
+  outline-color: #ffffff;
+  outline-offset: 4px;
+  
+}
+    
+button{
+    position: relative;
+    background: #C07212;
+    border: 0;
+    width: 250px;
+    height: 54px;
+    border-radius: 10px;
+    top:150px;
+    left: 750px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 30px;
+    color: #ffffff;
+       
+}
+
+button:hover{
+   
+   height: 60px ;
+   background-color:white;
+   color: #303030;
+   transform: translateY(-7px);
+   transition-duration: 0.3s;  
+   
+}
